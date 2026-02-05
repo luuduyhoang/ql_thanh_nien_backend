@@ -16,7 +16,7 @@ func main() {
 	// 1️⃣ Kết nối DB
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8866"
+		port = "8080"
 	}
 	config.ConnectDB()
 
